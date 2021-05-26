@@ -1,0 +1,89 @@
+<div class="row">
+  <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12 text-center">
+    <img src="/assets/img/pokedex_logo.png" class="" alt="logopokedex">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12">
+    <span id="btnBusqueda" (click)="busquedapokemon(busquedatxt.value)"><fa-icon [icon]="['fas', 'search']"></fa-icon></span>
+    <input id="txtbusqueda" type="text" #busquedatxt/>
+    <img id="imagenpokedex" src="/assets/img/pokedex.gif" alt="logopokedex">
+    <img id="imagenpokemon" src="{{pokemon.Imagen}}" class="" alt="" />
+    <div *ngIf="mostrardetalle" id="detallespokemon">
+      <ngb-carousel #carousel [interval]="3000" [showNavigationArrows]="false" [showNavigationIndicators]="false">
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Nombre</span>
+          <br />
+          {{pokemon.Nombre}}
+          <br />
+          <span class="text-bold text-black">Altura</span>
+          <br />
+          {{pokemon.Altura}} metros
+          <br />
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Categoria</span>
+          <br />
+          {{pokemon.Categoria}}
+          <br />
+          <span class="text-bold text-black">Peso</span>
+          <br />
+          {{pokemon.Peso}} kg
+          <br />
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Habilidad</span>
+          <br />
+          {{pokemon.Habilidad}}
+          <br />
+          <span class="text-bold text-black">Sexo</span>
+          <br />
+          {{pokemon.Sexo}}
+          <br />
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Tipo</span>
+          <br />
+          <small *ngFor="let tipo of pokemon.Tipo;" class="badge marca" [ngClass]="tipo.ClaseColor">{{tipo.Nombre}}</small>
+          <br />
+          <span class="text-bold text-black">Debilidad</span>
+          <br />
+          <small *ngFor="let debilidad of pokemon.Debilidad;" class="badge marca" [ngClass]="debilidad.ClaseColor">{{debilidad.Nombre}}</small>
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Ps</span>
+          <br />
+          <span *ngFor="let ps of psValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of psInvalido;" class="badge badge-warning power">&nbsp;</span>
+          <br />
+          <span class="text-bold text-black">Ataque</span>
+          <br />
+          <span *ngFor="let ps of ataqueValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of ataqueInvalido;" class="badge badge-warning power">&nbsp;</span>
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Defensa</span>
+          <br />
+          <span *ngFor="let ps of defensaValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of defensaInvalido;" class="badge badge-warning power">&nbsp;</span>
+          <br />
+          <span class="text-bold text-black">Ataque Especial</span>
+          <br />
+          <span *ngFor="let ps of ataqueEspValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of ataqueEspInvalido;" class="badge badge-warning power">&nbsp;</span>
+        </ng-template>
+        <ng-template ngbSlide>
+          <span class="text-bold text-black">Defensa Especial</span>
+          <br />
+          <span *ngFor="let ps of defensaEspValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of defensaEspInvalido;" class="badge badge-warning power">&nbsp;</span>
+          <br />
+          <span class="text-bold text-black">Velocidad</span>
+          <br />
+          <span *ngFor="let ps of velocidadValido;" class="badge badge-info power">&nbsp;</span>
+          <span *ngFor="let ps of velocidadInvalido;" class="badge badge-warning power">&nbsp;</span>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</div>

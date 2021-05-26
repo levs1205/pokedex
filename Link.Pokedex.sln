@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{A61B0110-3889-464C-899B-81B19EABF1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Distributed Services", "2. Distributed Services", "{917887E1-39B8-4151-BDBE-71765897EF60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Pokedex.Api", "Link.Pokedex.Api\Link.Pokedex.Api.csproj", "{2442E195-3CC4-45A8-8B8D-B59714EE668A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Link.Pokedex.Client", "Link.Pokedex.Client\Link.Pokedex.Client.csproj", "{AB54F649-B03B-4298-BE75-6418A5B355CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2442E195-3CC4-45A8-8B8D-B59714EE668A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2442E195-3CC4-45A8-8B8D-B59714EE668A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2442E195-3CC4-45A8-8B8D-B59714EE668A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2442E195-3CC4-45A8-8B8D-B59714EE668A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB54F649-B03B-4298-BE75-6418A5B355CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB54F649-B03B-4298-BE75-6418A5B355CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB54F649-B03B-4298-BE75-6418A5B355CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB54F649-B03B-4298-BE75-6418A5B355CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2442E195-3CC4-45A8-8B8D-B59714EE668A} = {917887E1-39B8-4151-BDBE-71765897EF60}
+		{AB54F649-B03B-4298-BE75-6418A5B355CB} = {A61B0110-3889-464C-899B-81B19EABF1B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7254916-6CE7-4C1C-AD63-0E0CEB5222C1}
+	EndGlobalSection
+EndGlobal

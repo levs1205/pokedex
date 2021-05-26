@@ -1,0 +1,48 @@
+#imagenpokemon {
+  width: 23%;
+  position: absolute;
+  top: 28%;
+  left: 13%;
+}
+#imagenpokedex {
+  width: 100%;
+}
+#detallespokemon {
+  width: 29%;
+  position: absolute;
+  height: 19%;
+  top: 31%;
+  left: 61%;
+  background-color: transparent;
+}
+#txtbusqueda {
+  width: 14%;
+  position: absolute;
+  height: 9%;
+  top: 83%;
+  left: 13%;
+  background-color: transparent;
+  border-color: transparent;
+  outline-color: transparent;
+  border-inline-color: transparent;
+  text-transform:uppercase;
+}
+#btnBusqueda {
+  width: 4%;
+  position: absolute;
+  height: 5%;
+  top: 72%;
+  left: 7%;
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+.power {
+  margin: 1px;
+  width: 8%;
+}
+.marca {
+  margin: 2px;
+}
