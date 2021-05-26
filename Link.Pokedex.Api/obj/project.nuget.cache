@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EJMr/eVAE53GfPUEAUDqd+DvjGCP2iaxwb05kxtg0WLpurDRKfAiCT95lNrLYzVcZAKC+qkBT3sLlpLwuZAHgA==",
+  "dgSpecHash": "3dg9RYNs32De/tSIUADQaCuLxEw4chbDHIO+qPiAwTpWDUj3+ZoY4EhcLHna08cgIXml8cpWaYxNQdU8djHQbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
+  "projectFilePath": "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lvs47\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lvs47\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

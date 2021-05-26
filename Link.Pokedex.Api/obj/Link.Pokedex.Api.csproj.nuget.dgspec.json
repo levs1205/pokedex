@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj": {}
+    "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj": {
+    "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
+        "projectUniqueName": "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
         "projectName": "Link.Pokedex.Api",
-        "projectPath": "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
+        "projectPath": "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\Link.Pokedex.Api.csproj",
         "packagesPath": "C:\\Users\\lvs47\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lvs47\\source\\repos\\Link.Pokedex\\Link.Pokedex.Api\\obj\\",
+        "outputPath": "C:\\Code\\Evalutation\\pokedex\\Link.Pokedex.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
