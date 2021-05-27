@@ -69,7 +69,7 @@ export class PokedexComponent implements OnInit {
 
     this.iniciarpokemon();
     this.getpokemon(nombre);
-    
+
   }
 
   getpokemon(name) {
@@ -113,9 +113,9 @@ export class PokedexComponent implements OnInit {
     var sexo = this.pokemon.Sexo.toString().split(",");
 
     var txt = 'Pokémon ' + this.pokemon.Nombre;
-    txt += ', altura ' + alt[0] + " punto " + alt[1] + " metros";
+    txt += ', altura ' + alt[0] + " punto " + (alt[1] != undefined ? + alt[1] : "cero") + " metros";
     txt += ', categoria ' + this.pokemon.Categoria;
-    txt += ', peso ' + pes[0] + " punto " + pes[1] + ' kilogramos';
+    txt += ', peso ' + pes[0] + " punto " + (pes[1] != undefined ? pes[1] : "cero") + ' kilogramos';
     txt += ', habilidad ' + this.pokemon.Habilidad;
     txt += ', sexo ';
 
