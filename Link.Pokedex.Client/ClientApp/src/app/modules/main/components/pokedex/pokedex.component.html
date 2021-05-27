@@ -5,8 +5,10 @@
 </div>
 <div class="row">
   <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12">
+    <input id="iniciarvoz" type="button" value="INICIAR" (click)="startvoice()" />
+    <input id="finvoz" type="button" value="TERMINAR" (click)="stopvoice()" />
     <span id="btnBusqueda" (click)="busquedapokemon(busquedatxt.value)"><fa-icon [icon]="['fas', 'search']"></fa-icon></span>
-    <input id="txtbusqueda" type="text" #busquedatxt/>
+    <input id="txtbusqueda" value="{{text}}" type="text" #busquedatxt />
     <img id="imagenpokedex" src="/assets/img/pokedex.gif" alt="logopokedex">
     <img id="imagenpokemon" src="{{pokemon.Imagen}}" class="" alt="" />
     <div *ngIf="mostrardetalle" id="detallespokemon">
