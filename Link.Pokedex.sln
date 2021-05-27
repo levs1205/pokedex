@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Database", "3. Database"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Link.Pokedex.Database", "Link.Pokedex.Database\Link.Pokedex.Database.sqlproj", "{32EDED32-E434-4F99-A64F-17E4A8EFF5DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Utility", "4. Utility", "{EBADE450-EF59-4248-93CE-E84BBB0D1E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Link.Pokedex.Utility", "Link.Pokedex.Utility\Link.Pokedex.Utility.csproj", "{B8AE970D-CEAB-418C-99B2-967F075C3CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{32EDED32-E434-4F99-A64F-17E4A8EFF5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EDED32-E434-4F99-A64F-17E4A8EFF5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32EDED32-E434-4F99-A64F-17E4A8EFF5DA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8AE970D-CEAB-418C-99B2-967F075C3CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AE970D-CEAB-418C-99B2-967F075C3CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AE970D-CEAB-418C-99B2-967F075C3CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AE970D-CEAB-418C-99B2-967F075C3CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,7 @@ Global
 		{2442E195-3CC4-45A8-8B8D-B59714EE668A} = {917887E1-39B8-4151-BDBE-71765897EF60}
 		{AB54F649-B03B-4298-BE75-6418A5B355CB} = {A61B0110-3889-464C-899B-81B19EABF1B8}
 		{32EDED32-E434-4F99-A64F-17E4A8EFF5DA} = {8DA33A67-DF81-4AF8-8480-59C4A1156A2D}
+		{B8AE970D-CEAB-418C-99B2-967F075C3CC3} = {EBADE450-EF59-4248-93CE-E84BBB0D1E9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D7254916-6CE7-4C1C-AD63-0E0CEB5222C1}
