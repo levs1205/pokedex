@@ -65,4 +65,7 @@
     <Build Include="dbo\Tables\PokemonDebilidad.sql" />
     <Build Include="dbo\Tables\Pokemon.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="ScriptInitialData.sql" />
+  </ItemGroup>
 </Project>
